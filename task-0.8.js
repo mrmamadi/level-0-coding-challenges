@@ -17,11 +17,10 @@ function toHoursAndMinutes(number) {
     } else {
         return `${pluralOrSingularMinutes}.`
     }
-    
+
     if (pluralOrSingularMinutes=='') {
         return `${pluralOrSingularHours}.`
     } else{  
         return `${pluralOrSingularHours}, ${pluralOrSingularMinutes}.`
     }
 }
-console.log(toHoursAndMinutes(60))
