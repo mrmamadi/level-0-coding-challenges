@@ -11,6 +11,5 @@ function commonLetters(word1,word2) {
         }
     }
     combinedSet = new Set(combinedArray);
-    console.log(`Common letters: ${[...combinedSet].toString()}`); //spread syntax
+    console.log(`Common letters: ${[...combinedSet].join(', ')}`) //spread syntax
 }
-(commonLetters('house','computers'))
